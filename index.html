@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Todo app</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Todo app</title>
+  </head>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+  <body>
+    <div class="banner-con">
+      <div class="banner">
+        <div class="content">
+          <h1>TODO</h1>
+          <img src="./images/icon-sun.svg" alt="icon sun">
+        </div>
+        <div class="todo">
+          <form>
+            <input type="text" placeholder="Create a new todo..." id="text">
+          </form>
 
-  Todo
+          <div class="list">
+            <div class="todo-con">
+              <div class="todo-li">
+                <div class="check"><img src="./images/icon-check.svg" alt="icon check"></div>
+                <p>Hello</p>
+                <button class="close"><img src="./images/icon-cross.svg" alt=""></button>
+              </div>
+            </div>
+          </div>
 
-  <!-- Add dynamic number --> items left
+          <div class="info">
+            <p>5 items left</p>
+          </div>
 
-  All
-  Active 
-  Completed
+          <div class="choice">
+            <p>All</p>
+            <p>Active</p>
+            <p>Completed</p>
+          </div>
+          <p>Clear Completed</p>
 
-  Clear Completed
+        </div>
+      </div>
+    </div>
 
-  Drag and drop to reorder list
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+
+
+
+
+
+
+    <script src="./script.js"></script>
+  </body>
 </html>
