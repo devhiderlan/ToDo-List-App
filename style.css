@@ -8,18 +8,20 @@
 
 body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: hsl(235, 21%, 11%);
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .banner-con {
   width: 100%;
-  height: 60vh;
+  height: 45vh;
 }
 
 .banner {
+  width: 100%;
+  height: 100%;
   background: url(./images/bg-desktop-dark.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -34,7 +36,7 @@ body {
   width: 600px;
   display: flex;
   justify-content: space-between;
-  margin-top: 200px;
+  margin-top: 40vh;
 }
 
 .content h1 {
@@ -124,5 +126,58 @@ input::placeholder {
   background: transparent;
   border: none;
   outline: none;
+  opacity: 0;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
+.todo-li:hover .close {
+  opacity: 1;
+}
+
+.hr {
+  width: 100%;
+  height: 1px;
+  background: hsl(233, 14%, 35%);
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: hsl(234, 11%, 52%);
+  padding: 1rem 0.9rem;
+  background: hsl(235, 24%, 19%);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.info p:hover{
+  color: hsl(220, 98%, 61%);
+}
+
+.choice {
+  display: flex;
+}
+
+.choice p {
+  padding: 0 5px;
+}
+
+.active {
+  color: hsl(220, 98%, 61%);
+} 
+
+.active-check {
+  background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+.active-check img {
+  transform: scale(1) !important;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
