@@ -1,36 +1,40 @@
-# Frontend Mentor - Todo List App
+Todo List App
 
 
 ## Visão Geral
 
-### Projeto de uma aplicação Web onde você consegue criar uma lista de tarefas, simples e prática.
+### Projeto de uma aplicação Web onde você consegue criar uma lista de tarefas, de forma simples e prática.
 #
 
 ![](./images/todo-list-app.png)
 
-⏳ Projeto realizado em 6 dias.
+⏳ Primeira etapa do projeto feita em 6 dias.
 #
 ## Construido com:
-- HTML
+- HTML Semântico
 - CSS
+  - Flexbox
+  - Desktop first
 - JavaScript
 
 ## Funcionalidades
-- Cadastro de novos pacientes
-- Exlcusão de pacientes com duplo click na linha da tabela que deseja excluir
-- Filtro de pesquisa
-- Busca de pacientes via API
+- Criar listas de tarefas
+- Filtrar por categorias, 'Ativas' ou 'Completas' 
+- Botão para limpar lista de tarefas completadas
+- Design adaptável a telas Mobile (Em construção)
+- Opção de exibição de tema claro ou escuro (Em construção)
+
 
 ## O que eu aprendi:
 - Manipulação do DOM
 - Arrays, loops e estilos
 - Eventos
-- AJAX
+- Seletores com JavaScript
 - Boas práticas com JavaScript
 
 ## Link
 
-Veja o projeto aqui: 
+Veja o projeto aqui: [Acessar🌍](https://devhiderlan.github.io/ToDo-List-App/)
 
 ## Autor
 
